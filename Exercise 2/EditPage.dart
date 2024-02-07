@@ -77,7 +77,11 @@ class EventDetailScreen extends StatelessWidget {
                 // Code to show location on map
               },
             ),
-            Spacer(),
+            Expanded(
+              child: Container(
+                child: Image.asset('assets/map.png', fit: BoxFit.cover),
+              ),
+            ),
             Align(
               alignment: Alignment.bottomRight,
               child: FloatingActionButton(

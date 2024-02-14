@@ -76,7 +76,7 @@ class MainPage extends StatelessWidget {
             child: Text('Chance of Rain: Very low (22.5%)',
             textAlign: TextAlign.center,
             style: TextStyle(
-            color: Colors.white, // White text for better readability on green background
+            color: Colors.white,
     ),
   ),
 ),
